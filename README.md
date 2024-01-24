@@ -29,3 +29,11 @@ Neste projeto final, você e seu grupo, foram contratados por um restaurante e t
 
 Enunciado:
 https://vargasleticia.notion.site/Frontend-Est-tico-Atividades-Aula-7-b5dba58812a4443e9ab62431e9a59844
+
+
+
+### Definições do grupo
+
+Tema do restaurante: Churrascaria
+Nome: Bovino's Grill
+Tipo de Prato: Cortes gourmet??
