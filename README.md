@@ -36,4 +36,8 @@ https://vargasleticia.notion.site/Frontend-Est-tico-Atividades-Aula-7-b5dba58812
 
 Tema do restaurante: Churrascaria
 Nome: Bovino's Grill
-Tipo de Prato: Cortes gourmet??
+Tipo de Prato: Cortes gourmet
+
+Referências:
+- [Barbacoa](https://barbacoa.com.br/)
+- [Fogo de Chão](https://fogodechao.com.br/)
