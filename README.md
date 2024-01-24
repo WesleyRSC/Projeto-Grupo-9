@@ -1,4 +1,4 @@
-# Projeto-Grupo-9
+# Projeto-Grupo-2
 
 ## Nosso desafio de hoje: **Desenvolvimento de uma Proposta de Website para um Restaurante** ✨
 
