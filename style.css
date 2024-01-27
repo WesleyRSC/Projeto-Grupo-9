@@ -1,0 +1,91 @@
+*{
+    margin:0;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+main{
+    background-image: url("./assets/churrasco3.webp");
+    background-size: cover;
+    overflow-y: scroll;
+    height: 90vh;
+    text-align: center;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgba(250, 235, 215, 0.74);
+
+}
+header{
+    background-color: #260101;
+    color: #d97904;
+    height: auto;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+
+}
+
+header>h1, .menu>ul{
+    margin-bottom: 15px;
+}
+
+ul{
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color:#BF2604 ;
+    color: rgb(160, 165, 165);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+li{
+    display: inline-block;
+}
+
+h2{
+    padding-top: 15px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.card{
+    width: 27%;
+    background-color: white;
+    padding: 15px 10px;
+    border-radius: 10px;   
+}
+
+.card>img{
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: #260101;
+    color: #d97904;
+    height: 120px;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
