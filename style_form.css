@@ -2,19 +2,46 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-
+    background-image: url("./assets/churrasco3.webp");
+    background-size: cover;
+    overflow-y: scroll;
+    height: 90vh;
+    text-align: center;
 }
 form{
-    width: 300px;
-    padding: 20px; 
-    border: 1px solid #ccc; 
+    width: 300px;  
     border-radius: 5px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    color: aliceblue;   
+    line-height: 1.5; 
+    flex-direction: column;
+    padding: auto;
 }
 
-label input{
+label input button{
     justify-content: center;
+    display: block;
+    margin-bottom: 10px;    
+}
+label{
+    font-size: 20px;
+    padding-left: -300px;
     
+    
+}
+input {
+    max-width: 200px;
+
+    margin-left: 15px;
+}
+#pessoas{
+    width: 50px;
+}
+
+button {
+    background-color: rgb(255, 217, 157);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;  
 }

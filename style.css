@@ -1,32 +1,39 @@
 *{
     margin:0;
-}
-html{
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;    
 }
 
-
-main{
+main {
     background-image: url("./assets/churrasco3.webp");
     background-size: cover;
     overflow-y: scroll;
     height: 90vh;
     text-align: center;
 }
+
 .container{
     max-width: 80%;
     margin: 0 auto;
     background-color: rgba(250, 235, 215, 0.74);
+}
 
+h1{
+    margin-left: 300px;
 }
 header{
-    background-color: #260101;
+    background-color: #251616;
     color: #d97904;
     height: auto;
-    text-align: center;
     padding-top: 35px;
     box-sizing: border-box;
+}
+
+.historia{
+    padding-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: left;
+    font-size: 18px;
 
 }
 
@@ -37,6 +44,7 @@ header>h1, .menu>ul{
 ul{
     padding: 0;
 }
+
 nav{
     display: flex;
     flex-direction: row;
@@ -45,12 +53,14 @@ nav{
 }
 
 button {
-    background-color:#BF2604 ;
-    color: rgb(160, 165, 165);
+    background-color: rgb(255, 217, 157);
+    color: black;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 30px;  
+    margin-right: 40px;
+    margin-top: 40px;
 }
 
 li{
@@ -71,9 +81,10 @@ h2{
 
 .card{
     width: 27%;
-    background-color: white;
+    background-color: rgb(121, 109, 109);
     padding: 15px 10px;
     border-radius: 10px;   
+    font-size: 15px;
 }
 
 .card>img{
@@ -88,4 +99,46 @@ footer{
     text-align: center;
     padding-top: 35px;
     box-sizing: border-box;
+}
+
+.eventos{
+    color: rgb(255, 217, 157);
+    background-color: black;
+    display: flex;
+    align-items: left;
+}
+
+.reserva{
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.imgeventos img{
+   margin-left: 300px;
+   border-radius: 50px;
+   padding-top: 30px;
+   padding-bottom: 30px;    
+}
+
+.kidscontainer{
+    color: rgb(37, 30, 30);  
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.imgkids{
+   margin-left: 200px;
+   border-radius: 50px;
+}
+
+.conteudokids{  
+    margin: 60px 100px 60px 100px;
+}
+.cadastro{
+    align-items: center;
+    background-color: #260101;   
+    color: #d97904;
+    padding: 20px 0 20px 600px;
+    justify-content: center;
 }
