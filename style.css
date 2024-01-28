@@ -15,6 +15,10 @@ html {
   margin: auto;
 }
 
+section {
+  border-bottom: 2px solid #d97904;
+}
+
 header {
   position: sticky;
   width: 100%;
@@ -46,7 +50,7 @@ header {
 }
 
 .menu {
-  color: antiquewhite;
+  color: #cac2b5;
   padding: 0;
   list-style: none;
   width: 100%;
@@ -80,6 +84,36 @@ header {
   height: 100%;
 }
 
+#historia {
+  background-image: url("./assets/fundoheader.jpeg");
+  background-position: center;
+  background-size: cover;
+  vertical-align: middle;
+  min-height: 30vh;
+  max-height: 40vh;
+  max-width: 100vw;
+}
+
+#historia .filter {
+  min-width: 100%;
+  min-height: inherit;
+  height: inherit;
+  filter: blur(1px);
+  height: inherit;
+  z-index: 0;
+  background: #00000081;
+  position: absolute;
+}
+
+#historia > .container-section {
+  height: auto;
+  position: relative;
+}
+
+.historia-text{
+    background-color: white;
+}
+
 #cardapio {
   background-image: url("./assets/chamas.jpg");
   background-position: center;
@@ -88,8 +122,8 @@ header {
   background-size: 100% 100%;
 }
 
-#cardapio>.container-section{
-    background-color: rgba(127, 255, 212, 0.384);
+#cardapio > .container-section {
+  background-color: rgba(127, 255, 212, 0.384);
 }
 
 .cards {
@@ -111,6 +145,11 @@ header {
 .card > figure > img {
   height: auto;
   width: 100%;
+}
+
+footer {
+  color: #cac2b5;
+  background-color: #730202;
 }
 
 /* *{
