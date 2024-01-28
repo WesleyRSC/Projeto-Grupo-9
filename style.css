@@ -1,6 +1,144 @@
-*{
+* {
+  margin: 0;
+}
+
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-section {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  background-color: #251616;
+  color: #d97904;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 100px;
+}
+
+.header-nav {
+  padding-bottom: 10px;
+}
+
+.header-nav > .menu {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  color: antiquewhite;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.menu-item {
+}
+
+.menu-item:hover {
+  background-color: #d97904;
+  display: inline-block;
+}
+
+.menu-item::after,
+.menu-item:first-child::before {
+  content: " | ";
+  font-weight: 100;
+}
+
+.menu-item:first-child::before,
+.menu-item:last-child::after {
+  padding: 0;
+  content: "";
+}
+
+.menu-item > a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  padding: 0 10px;
+  height: 100%;
+}
+
+#cardapio {
+  background-image: url("./assets/chamas.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#cardapio>.container-section{
+    background-color: rgba(127, 255, 212, 0.384);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.card {
+  width: 27%;
+  background-color: rgb(121, 109, 109);
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.card > figure > img {
+  height: auto;
+  width: 100%;
+}
+
+/* *{
     margin:0;
     scroll-behavior: smooth;    
+}
+
+header{
+    background-color: #251616;
+    color: #d97904;
+    height: auto;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title, .menu{
+    margin-bottom: 15px;
+}
+
+ul{
+    padding: 0;
 }
 
 main {
@@ -17,16 +155,10 @@ main {
     background-color: rgba(250, 235, 215, 0.74);
 }
 
-h1{
+.title{
     margin-left: 300px;
 }
-header{
-    background-color: #251616;
-    color: #d97904;
-    height: auto;
-    padding-top: 35px;
-    box-sizing: border-box;
-}
+
 
 .historia{
     padding-bottom: 30px;
@@ -37,20 +169,6 @@ header{
 
 }
 
-header>h1, .menu>ul{
-    margin-bottom: 15px;
-}
-
-ul{
-    padding: 0;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-}
 
 button {
     background-color: rgb(255, 217, 157);
@@ -63,7 +181,7 @@ button {
     margin-top: 40px;
 }
 
-li{
+.menu-item{
     display: inline-block;
 }
 
@@ -141,4 +259,4 @@ footer{
     color: #d97904;
     padding: 20px 0 20px 600px;
     justify-content: center;
-}
+} */
