@@ -203,6 +203,23 @@ button {
   background-color: #d97904;
 }
 
+@media (600px < width < 1000px) {
+  .card > figure > p {
+    font-size: small;
+    line-height: 1;
+  }
+
+  .container {
+    max-width: 95%;
+  }
+
+  .card > figure > img {
+    margin-bottom: 5px;
+    min-height: 45%;
+    max-height: 45%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .cards {
     flex-direction: column;
