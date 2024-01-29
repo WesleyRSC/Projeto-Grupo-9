@@ -3,8 +3,8 @@
   scroll-behavior: smooth;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 
 main {
@@ -24,7 +24,6 @@ main {
 }
 
 header {
-  position: sticky;
   width: 100%;
   background-color: #251616;
   color: #d97904;
@@ -115,16 +114,22 @@ h2 {
   font-size: 15px;
 }
 
+.card > figure {
+  height: 100%;
+}
+
 .card > figure > img {
   border-radius: 10px;
   height: auto;
   width: 100%;
   margin-bottom: 10px;
+  min-height: 50%;
+  max-height: 50%;
 }
 
-.card-title{
-    font-weight: bold;
-    font-size: larger;
+.card-title {
+  font-weight: bold;
+  font-size: larger;
 }
 
 footer {
