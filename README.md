@@ -1,5 +1,10 @@
 # Projeto-Grupo-2
 
+### Participantes
+- Elen Bomfim
+- Naady Campos
+- Wesley Campos
+
 ## Nosso desafio de hoje: **Desenvolvimento de uma Proposta de Website para um Restaurante** ✨
 
 Neste projeto final, você e seu grupo, foram contratados por um restaurante e terão a oportunidade de aplicar todo o conhecimento adquirido em HTML e CSS para desenvolver uma proposta inovadora de website para o “Tenho fome” . A missão é apresentar uma visão criativa e aprimorada para o restaura por meio deste projeto de website.
